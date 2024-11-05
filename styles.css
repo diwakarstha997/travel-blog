@@ -1,0 +1,25 @@
+body {
+  background: #38deef;
+}
+
+header {
+  background: #38deef;
+  padding: 0px 100px;
+}
+
+.top-bar {
+  display: flex;
+  font-weight: bold;
+  padding: 0px;
+  flex-grow: 0;
+}
+
+.social {
+  flex-grow: 0;
+  margin-left: auto;
+
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0px;
+}
