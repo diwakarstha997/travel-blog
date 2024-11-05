@@ -56,3 +56,29 @@ ul {
   background: rgb(133, 10, 233);
   padding: 5px;
 }
+
+/* Css style for background image and hero-text*/
+.hero-section {
+  /* display: flex; */
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bg-image {
+  width: 100vw;
+  height: 600px;
+}
+
+.hero-text {
+  background: black;
+  opacity: 0.6;
+  border-radius: 10px;
+  padding: 30px;
+  height: 100px;
+  width: 300px;
+
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
