@@ -49,3 +49,10 @@ ul {
   align-items: center;
   gap: 20px;
 }
+
+/* highlight list on hover*/
+.nav-list li:hover {
+  font-size: 24px;
+  background: rgb(133, 10, 233);
+  padding: 5px;
+}
