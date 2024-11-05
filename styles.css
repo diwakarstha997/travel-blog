@@ -1,16 +1,17 @@
 body {
   background: #38deef;
+  margin: 0px;
 }
 
 header {
   background: #38deef;
-  padding: 0px 100px;
 }
 
+/* Css for top-bar includes social links*/
 .top-bar {
   display: flex;
   font-weight: bold;
-  padding: 0px;
+  padding: 5px 100px;
   flex-grow: 0;
 }
 
@@ -22,4 +23,29 @@ header {
   align-items: center;
   gap: 5px;
   padding: 0px;
+}
+
+/* Css for nav-bar includes logo image and nav lists*/
+.nav-bar {
+  background: darkblue;
+  padding: 5px 100px;
+  color: white;
+
+  display: flex;
+}
+
+.img-logo {
+  height: 50px;
+  width: 50px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
