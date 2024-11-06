@@ -14,7 +14,7 @@ h3 {
 .top-bar,
 .nav-bar,
 .blog-title,
-.blog-cards {
+.blog-body-wrapper {
   padding: 5px 100px;
 }
 
@@ -48,7 +48,7 @@ h3 {
   width: 50px;
 }
 
-ul {
+.nav-list {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -99,6 +99,17 @@ ul {
   font-weight: bold;
 }
 
+/* blog body css*/
+.blog-body {
+  display: flex;
+  gap: 10px;
+}
+
+/* blog cards css*/
+.blog-cards {
+  width: 70%;
+}
+
 .blog-card-1,
 .blog-card-2,
 .blog-card-3 {
@@ -137,4 +148,27 @@ ul {
   border: 0px;
   padding: 10px 8px;
   box-shadow: -8px 8px 16px 6px #707b7c;
+}
+
+/* blog filter css*/
+.blog-filter {
+  width: 30%;
+}
+
+.blog-country-filter,
+.blog-date-filter {
+  background: rgba(32, 245, 4, 0.2);
+  padding: 16px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+}
+
+.blog-country-filter > p,
+.blog-date-filter > p {
+  font-weight: bold;
+}
+
+.blog-country-filter > ul > li > a,
+.blog-date-filter > ul > li > a {
+  color: black;
 }
