@@ -7,11 +7,17 @@ header {
   background: #38deef;
 }
 
+.top-bar,
+.nav-bar,
+.blog-title,
+.blog-cards {
+  padding: 5px 100px;
+}
+
 /* Css for top-bar includes social links*/
 .top-bar {
   display: flex;
   font-weight: bold;
-  padding: 5px 100px;
   flex-grow: 0;
 }
 
@@ -28,7 +34,6 @@ header {
 /* Css for nav-bar includes logo image and nav lists*/
 .nav-bar {
   background: darkblue;
-  padding: 5px 100px;
   color: white;
 
   display: flex;
@@ -79,9 +84,10 @@ ul {
   width: 300px;
 }
 
-/* blog container css */
-
+/* css for latest blog posts */
 .blog-container {
-  background-image: url(https://cdn.vectorstock.com/i/500p/32/02/starry-sky-background-beautiful-sunset-with-stars-vector-51123202.jpg);
-  height: 200px;
+  height: 600px;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/010/082/270/non_2x/abstract-gradient-blue-light-background-free-vector.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw 600px;
 }
