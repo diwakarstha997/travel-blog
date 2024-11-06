@@ -132,11 +132,6 @@ h3 {
   gap: 16px;
 }
 
-.blog-card-description {
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
 .blog-card-button {
   display: flex;
   justify-content: end;
