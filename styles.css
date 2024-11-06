@@ -59,15 +59,15 @@ ul {
 
 /* Css style for background image and hero-text*/
 .hero-section {
-  /* display: flex; */
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   text-align: center;
   color: white;
-}
-
-.bg-image {
-  width: 100vw;
   height: 600px;
+  background-image: url(./images/bg-image.jpg);
+  background-size: 100vw 600px;
 }
 
 .hero-text {
@@ -77,8 +77,11 @@ ul {
   padding: 30px;
   height: 100px;
   width: 300px;
+}
 
-  position: absolute;
-  top: 50%;
-  left: 40%;
+/* blog container css */
+
+.blog-container {
+  background-image: url(https://cdn.vectorstock.com/i/500p/32/02/starry-sky-background-beautiful-sunset-with-stars-vector-51123202.jpg);
+  height: 200px;
 }
