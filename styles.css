@@ -20,7 +20,8 @@ h3 {
 }
 
 .blog-title,
-.blog-suggest-title {
+.blog-suggest-title,
+.blog-newsletter-title {
   font-weight: bold;
 }
 
@@ -220,4 +221,49 @@ h3 {
   border: 0px;
   padding: 10px 8px;
   box-shadow: -8px 8px 16px 6px #707b7c;
+}
+
+/* Newsletter section */
+.blog-newsletter {
+  background: lightgreen;
+  height: 300px;
+  margin-bottom: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-form-wrapper {
+  max-width: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.blog-form {
+  display: flex;
+  gap: 3px;
+}
+
+#name,
+#email,
+.blog-form > button {
+  min-width: 1em;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 15px 5px;
+  font-size: 10px;
+}
+
+#name {
+  flex: 1;
+}
+
+#email {
+  flex: 1;
+}
+
+.blog-form > button {
+  flex: 0.5;
 }
