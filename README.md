@@ -47,4 +47,4 @@
        - wrap button into a div and use display: flex; with justify-content: end; to display it on right
        - use border-radius: 6px; to achieve border radius
        - use box-shadow: -8px 8px 16px 6px <color>; i.e. horizontal-value vertical-value blur spread-radius color;
-   - To arrange cards and filters on left and right, wrap both the container in single one and use display: flex; with gap: 10px;
+     - To arrange cards and filters on left and right, wrap both the container in single one and use display: flex; with gap: 10px;
