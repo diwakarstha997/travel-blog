@@ -64,19 +64,19 @@
 
 > #### 5. Blog Subscription Section
 
-- Problem
+- **Problem:**
   - Display form title and form items in vertical manner and centered both vertically and horizontally
   - Form items should be arranged horizontally and width of button should be relatively small than that of inputs
-- Solution
+- **Solution:**
   - wrap form title and form items with div box and use display: flex; justify-content: center; align-items: center; on footer to center the box
   - Apply display: flex; flex-direction: column; on div box which was used to wrap form title and form items to arrange them vertically
   - Reset form items with by providing max-width and use flex: 1 for inputs and flex: 0.5 for button which makes button smaller than inputs
 
 > #### 6. Footer section
 
-- Problem
+- **Problem:**
   - Display footer with black background
-- Solution
+- **Solution:**
   - Provide background: black;
   - Also provide padding, if you want to hide visible body background
 
