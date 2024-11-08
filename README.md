@@ -2,13 +2,13 @@
 
 ### A simple single page static website built with HTML and CSS.
 
-## Learning outcomes:
+## Learning outcomes
 
 - Use of HTML elements like image, paragraph, forms, buttons, anchor tags and so on
 - Use of Flexbox css for designing the webpage layout
 - Implementation of different css selectors like class selector, id selector, desendent combinator, grouping selector
 
-## Challenge faced and steps taken :
+## Challenge faced and steps taken
 
 1. Header section:
 
@@ -34,6 +34,7 @@
      - For transparent box either use background: rgba or opacity;
 
 3. Blog Cards section:
+
    - Problem:
      - Background image
      - Display partial transparent cards which contains image on left and content on right, also contents arraged in vertical manner where button is aligned right, also buttons contains shadow and border of cards and buttons has radius
@@ -48,3 +49,37 @@
        - use border-radius: 6px; to achieve border radius
        - use box-shadow: -8px 8px 16px 6px <color>; i.e. horizontal-value vertical-value blur spread-radius color;
      - To arrange cards and filters on left and right, wrap both the container in single one and use display: flex; with gap: 10px;
+
+4. Blog Recommendation section:
+
+   - Problem:
+     - Display vertically aligned card with image of same width as card and, top-left and top right has curved radius
+     - All cards arranged in horizonatal manner
+   - Solution:
+     - wrap the content with a div and apply display: flex; and flex-direction column to main card, this should arrange image and content vertically
+     - Apply display: flex; and flex-direction column to wrapped content as well to make content look more better
+     - For image provide max-width: 100em and set parent element max-width: 390px and, provide border-radius: 6px 6px 0px 0px; for top left and right curved border
+     - Finally, to arrange all cards in horizontal manner, wrap all cards with a div use display: flex; and flex-wrap: wrap; to prevent css from breaking in
+       other screens, also use gap: 26px; to provide space between cards.
+
+5. Blog Subscription Section
+
+   - Problem
+     - Display form title and form items in vertical manner and centered both vertically and horizontally
+     - Form items should be arranged horizontally and width of button should be relatively small than that of inputs
+   - Solution
+     - wrap form title and form items with div box and use display: flex; justify-content: center; align-items: center; on footer to center the box
+     - Apply display: flex; flex-direction: column; on div box which was used to wrap form title and form items to arrange them vertically
+     - Reset form items with by providing max-width and use flex: 1 for inputs and flex: 0.5 for button which makes button smaller than inputs
+
+6. Footer section
+
+   - Problem
+     - Display footer with black background
+   - Solution
+     - Provide background: black;
+     - Also provide padding, if you want to hide visible body background
+
+## Live Demo
+
+### https://diwakarstha997.github.io/travel-blog/
