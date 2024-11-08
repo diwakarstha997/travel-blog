@@ -28,13 +28,13 @@ h3 {
 /* Css for top-bar includes social links*/
 .top-bar {
   display: flex;
+  justify-content: space-between;
   font-weight: bold;
   flex-grow: 0;
 }
 
 .social {
   flex-grow: 0;
-  margin-left: auto;
 
   display: flex;
   align-items: center;
@@ -48,6 +48,7 @@ h3 {
   color: white;
 
   display: flex;
+  justify-content: space-between;
 }
 
 .img-logo {
@@ -59,7 +60,6 @@ h3 {
   list-style: none;
   margin: 0;
   padding: 0;
-  margin-left: auto;
 
   display: flex;
   align-items: center;
